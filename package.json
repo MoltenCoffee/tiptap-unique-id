@@ -1,0 +1,30 @@
+{
+  "name": "tiptap-unique-id",
+  "description": "A tiptap extension that adds unique IDs to nodes",
+  "version": "1.0.0",
+  "keywords": [
+    "tiptap",
+    "extension",
+    "tiptap extension"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.212",
+    "@tiptap/pm": "^2.0.0-beta.212"
+  },
+  "devDependencies": {
+    "rimraf": "^4.1.2",
+    "rollup": "^3.12.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-swc3": "^0.8.0"
+  }
+}
