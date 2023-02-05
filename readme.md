@@ -1,5 +1,8 @@
 # TipTap Unique ID extension
 
+[![npm version](https://img.shields.io/npm/v/tiptap-unique-id?style=flat-square)](https://www.npmjs.org/package/tiptap-unique-id)
+
+
 An extension that enables unique IDs for nodes. A JS fork of the original MIT licensed [`extension-unique-id`](https://www.npmjs.com/package/@tiptap/extension-unique-id) that has since been abandoned in favour of a closed source internal version.
 
 ## Installation
