@@ -1,15 +1,19 @@
 {
   "name": "tiptap-unique-id",
+  "version": "1.0.2",
   "description": "A tiptap extension that adds unique IDs to nodes",
-  "version": "1.0.0",
+  "author": "Thijs-Jan Huisman",
+  "license": "MIT",
   "keywords": [
     "tiptap",
     "extension",
     "tiptap extension"
   ],
-  "license": "MIT",
   "type": "module",
   "module": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "files": [
     "dist"
   ],
