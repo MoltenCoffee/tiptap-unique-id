@@ -1,6 +1,6 @@
 {
   "name": "tiptap-unique-id",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "A tiptap extension that adds unique IDs to nodes",
   "author": "Thijs-Jan Huisman",
   "license": "MIT",
@@ -22,11 +22,11 @@
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "@tiptap/core": "^2.1.8",
-    "@tiptap/pm": "^2.1.8"
+    "@tiptap/core": "^3.0.0",
+    "@tiptap/pm": "^3.0.0"
   },
   "devDependencies": {
-    "rimraf": "^5.0.1",
+    "rimraf": "^6.0.1",
     "rollup": "^3.12.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-swc3": "^0.10.1"
